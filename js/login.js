@@ -27,7 +27,7 @@ window.addEventListener('load', function(){
                    }
                    infoUser.push(login);
                    window.localStorage.setItem('infoUser',JSON.stringify(infoUser));
-                   window.location.href='./index.html'
+                   window.location.href='./dangnhap.html'
                 }
                 else{
                     islogin=false
